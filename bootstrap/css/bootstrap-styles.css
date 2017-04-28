@@ -1,12 +1,5 @@
 /* Insert Custom stylings here for bootstrap --
  * Include at the bootom of stylesheet links in the HTML docs. */
-
-.sidebar, .booking-table {
-    width: 337.75px;
-    padding: 0 15px;
-}
-
-
 .address {
     padding: .5em 0;
     
@@ -61,9 +54,9 @@
 }
 
 .menu {
+    position: static;
     height: 100vh;
     background-color: white;
-    margin-left: 337.75px;
 }
 
 .menu-heading {
